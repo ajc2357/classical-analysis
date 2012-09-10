@@ -1,6 +1,7 @@
 # ClassicalAnalysis
 
-TODO: Write a gem description
+Collects data to perform analysis on the distribution of composers played on classical music radio
+stations. The original idea for this came from [this website](http://evanmuehlhausen.com/data-mining-local-radio-with-nodejs/).
 
 ## Installation
 

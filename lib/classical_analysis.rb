@@ -3,8 +3,12 @@ require 'nokogiri'
 require 'open-uri'
 require 'redis'
 
+# Module for collecting playlist data for classical music stations.
 module ClassicalAnalysis
-  class AllClassicalDoc
+  # Class for collecting playlist data from All Classical 89.9.
+  class AllClassical899
+    # Request playlist information from allclassical.org for a range of dates.
+    # Store the data in Redis.
     def self.run
       db = Redis.new(:host => '127.0.0.1', :port => 6379)
       9.times do |day|
