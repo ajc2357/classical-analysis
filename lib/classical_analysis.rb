@@ -9,7 +9,7 @@ module ClassicalAnalysis
   class AllClassical899
     # Request playlist information from allclassical.org for a range of dates.
     # Store the data in Redis.
-    def self.run
+    def self.collect
       db = Redis.new(:host => '127.0.0.1', :port => 6379)
       9.times do |day|
         date = "2012-09-%02d" % [day + 1]

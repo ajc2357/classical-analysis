@@ -2,4 +2,4 @@
 #require 'classical_analysis'
 require './lib/classical_analysis.rb'
 
-ClassicalAnalysis::AllClassical899.run
+ClassicalAnalysis::AllClassical899.collect

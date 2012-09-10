@@ -2,6 +2,7 @@
 
 Collects data to perform analysis on the distribution of composers played on classical music radio
 stations. The original idea for this came from [this website](http://evanmuehlhausen.com/data-mining-local-radio-with-nodejs/).
+Data is stored in Redis for analysis after collection.
 
 ## Installation
 
@@ -19,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-Run `run.rb` in the root of the project.
+Run `collect.rb` in the root of the project.
 
 ## Contributing
 
