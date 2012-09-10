@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Run `run.rb` in the root of the project.
 
 ## Contributing
 
