@@ -18,3 +18,5 @@ tmp
 .rvmrc
 .buildpath
 .project
+*.sublime-project
+*.sublime-workspace
